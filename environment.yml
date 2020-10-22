@@ -1,0 +1,15 @@
+name: rockhound-data
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - jupyter
+  - jupytext
+  - matplotlib
+  - xarray
+  - pooch>=1.0
+  - rasterio
+  - netcdf4
